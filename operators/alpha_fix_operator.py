@@ -8,6 +8,3 @@ class MEK_AlphaFix(bpy.types.Operator):
         for item in bpy.data.materials:
             item.blend_method = 'HASHED' # Such a smol function, much wow
         return {'FINISHED'}
-
-    def invoke(self, context, event):
-        return self.execute(context)
