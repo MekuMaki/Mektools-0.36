@@ -1,11 +1,11 @@
 import bpy # type: ignore
 
 class MEK_LinksPanel(bpy.types.Panel):
-    bl_label = 'Mektools 0.36'
+    bl_label = 'Links Panel'
     bl_idname = 'MEK_LinksPanel'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Mektools 0.36'
+    bl_category = 'Mektools'
 
     def draw(self, context):
         layout = self.layout
