@@ -1,4 +1,5 @@
 import bpy # type: ignore
+import os
 
 
 # Dictionary of keywords and corresponding material names
@@ -43,7 +44,7 @@ def replace_material_with_external(context):
 class ReplaceMaterialsOperator(bpy.types.Operator):
     """Replace materials by name part"""
     bl_idname = "object.replace_materials"
-    bl_label = "Replace Materials"
+    bl_label = "replace_materials"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
