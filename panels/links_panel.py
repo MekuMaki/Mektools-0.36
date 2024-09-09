@@ -2,7 +2,7 @@ import bpy # type: ignore
 
 class MEK_LinksPanel(bpy.types.Panel):
     bl_label = 'Links Panel'
-    bl_idname = 'mek_linkspanel'
+    bl_idname = 'mek.linkspanel'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'Mektools'
