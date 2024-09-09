@@ -15,8 +15,8 @@ import os
 #from .utils import wol_material_replacement
 
 
-from .operators import alpha_fix_operator
-from .operators import normals_fix_operator
+from .operators.alpha_fix_operator import MEK_AlphaFix
+from .operators.normals_fix_operator import MEK_NormalsFix
 from .operators.replace_materials_operator import ReplaceMaterialsOperator
 
 
@@ -25,8 +25,8 @@ from .panels.links_panel import MEK_LinksPanel
 
 classes = [MEK_LinksPanel,
            VIEW3D_IMPORT_AND_EXPORT_MEK,
-           alpha_fix_operator.MEK_AlphaFix,
-           normals_fix_operator.MEK_NormalsFix,
+           MEK_AlphaFix,
+           MEK_NormalsFix,
            ReplaceMaterialsOperator,
            
            ]
