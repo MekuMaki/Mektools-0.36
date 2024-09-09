@@ -43,8 +43,8 @@ def replace_material_with_external(context):
 
 class ReplaceMaterialsOperator(bpy.types.Operator):
     """Replace materials by name part"""
-    bl_idname = "object.replace_materials"
-    bl_label = "replace_materials"
+    bl_idname = 'object.replace_materials'
+    bl_label = 'replace_materials'
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):

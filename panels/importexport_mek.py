@@ -2,11 +2,11 @@ import bpy # type: ignore
 
 
 class VIEW3D_IMPORT_AND_EXPORT_MEK(bpy.types.Panel):
-    bl_label = "Import and Export"
+    bl_label = 'Import and Export'
     bl_idname = 'VIEW3D_IMPORT_AND_EXPORT_MEK'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Mektools 0.36'
+    bl_category = 'Mektools'
 
     @classmethod
     def poll(cls, context):
@@ -74,3 +74,4 @@ class VIEW3D_IMPORT_AND_EXPORT_MEK(bpy.types.Panel):
         op = split_7EDD2.operator('MEK_AlphaFix', text="Fix Alpha", icon_value=0, emboss=True, depress=False)
 
         op = box_FEE47.operator('MEK_NormalsFix', text='Fix Normals', icon_value=0, emboss=True, depress=False)
+        op = box_FEE47.operator('object.replace_materials', text='WOL Shader Replace', icon_value=0, emboss=True, depress=False)

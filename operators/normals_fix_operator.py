@@ -1,8 +1,8 @@
 import bpy # type: ignore
 
 class MEK_NormalsFix(bpy.types.Operator):
-    bl_label = "Normals Fix"
-    bl_idname = "mek_normal_fix"
+    bl_label = 'Normals Fix'
+    bl_idname = 'mek_normal_fix'
     bl_description = "Clear Custom Split Normals if the model looks kinda jank for some reasons."
     
     def execute(self, context):
