@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "MekTools"
+version = "0.38"
+name = "MekTools"
+tagline = "Tools To Apply the MekRig"
+maintainer = "Meku"
+type = "add-on"
+
+permissions = ["files", "network"]
+
+blender_version_min = "4.0.0"
+
+license = [
+  "SPDX:GPL-3.0",]
