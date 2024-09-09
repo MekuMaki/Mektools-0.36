@@ -3,7 +3,7 @@ import bpy # type: ignore
 
 class VIEW3D_IMPORT_AND_EXPORT_MEK(bpy.types.Panel):
     bl_label = 'Import and Export'
-    bl_idname = 'view3d_import_and_export_mek'
+    bl_idname = '_PT_view3d_import_and_export_mek'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'Mektools'
