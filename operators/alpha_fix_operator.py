@@ -1,8 +1,8 @@
 import bpy # type: ignore
 
-class MEK_AlphaFix(bpy.types.Operator):
-    bl_label = 'Alpha Fix'
-    bl_idname = 'mek.alpha_fix'
+class OT_AlphaFix(bpy.types.Operator):
+    bl_label = 'alpha_fix'
+    bl_idname = 'OT_AlphaFix'
 
     def execute(self, context):
         for item in bpy.data.materials:
